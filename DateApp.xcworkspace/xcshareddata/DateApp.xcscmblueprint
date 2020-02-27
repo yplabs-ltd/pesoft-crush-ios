@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C3CF4CC1BCEA7E9DC3F7E905701137A6A16E59F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EE4DAFF70F73BB7F98F3BC5EC6049068B78965D9" : 0,
+    "87BAF18CC9525290C3AA27C32903EF6F18A07D2F" : 0,
+    "C3CF4CC1BCEA7E9DC3F7E905701137A6A16E59F6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ABD643D5-7925-4620-A87E-41540B442C4C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EE4DAFF70F73BB7F98F3BC5EC6049068B78965D9" : "dateapp-ios\/dobby\/",
+    "87BAF18CC9525290C3AA27C32903EF6F18A07D2F" : "dateapp-ios\/",
+    "C3CF4CC1BCEA7E9DC3F7E905701137A6A16E59F6" : "crush-for-ios2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DateApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DateApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/yjkim82\/dateapp-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87BAF18CC9525290C3AA27C32903EF6F18A07D2F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/pesoft\/crush-for-ios2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3CF4CC1BCEA7E9DC3F7E905701137A6A16E59F6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yjkim\/dobby.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE4DAFF70F73BB7F98F3BC5EC6049068B78965D9"
+    }
+  ]
+}

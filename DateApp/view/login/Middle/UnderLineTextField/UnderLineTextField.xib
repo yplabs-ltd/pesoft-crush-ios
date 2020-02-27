@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="17D47" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UnderLineTextField" customModule="DateApp" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomLabel" destination="u0r-Fk-Q2Q" id="iJS-s8-jY5"/>
+                <outlet property="rightBtnHeight" destination="Esm-IL-2nx" id="jYa-kt-iko"/>
+                <outlet property="rightBtnWidth" destination="PYO-Nx-VfA" id="GKV-rd-fKy"/>
+                <outlet property="rightButton" destination="6UW-nQ-xxb" id="fmy-NE-v7v"/>
+                <outlet property="textField" destination="dAW-92-YW1" id="0ku-H8-fOk"/>
+                <outlet property="topLabel" destination="GIw-xC-Uwa" id="re6-L8-NPZ"/>
+                <outlet property="underLine" destination="cXP-T6-tJZ" id="hpM-Wd-1Xp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIw-xC-Uwa">
+                    <rect key="frame" x="87.5" y="0.0" width="200" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="j5V-52-jgA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dAW-92-YW1">
+                    <rect key="frame" x="0.0" y="27" width="343" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="hsT-CX-G73"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UW-nQ-xxb">
+                    <rect key="frame" x="343" y="19.5" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="Esm-IL-2nx"/>
+                        <constraint firstAttribute="width" constant="32" id="PYO-Nx-VfA"/>
+                    </constraints>
+                    <state key="normal" image="icXCircle"/>
+                    <connections>
+                        <action selector="onPressedRightButton" destination="-1" eventType="touchUpInside" id="Bp8-l4-vv2"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXP-T6-tJZ">
+                    <rect key="frame" x="0.0" y="45" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="NNV-Ad-BiC"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0r-Fk-Q2Q">
+                    <rect key="frame" x="0.0" y="62.5" width="375" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6UW-nQ-xxb" secondAttribute="trailing" id="1eR-gg-dHC"/>
+                <constraint firstItem="GIw-xC-Uwa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8wC-V3-MzE"/>
+                <constraint firstItem="6UW-nQ-xxb" firstAttribute="centerY" secondItem="dAW-92-YW1" secondAttribute="centerY" id="FMM-s6-GGD"/>
+                <constraint firstItem="cXP-T6-tJZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Qoh-uQ-c8p"/>
+                <constraint firstItem="dAW-92-YW1" firstAttribute="top" secondItem="GIw-xC-Uwa" secondAttribute="bottom" constant="9" id="Wts-RG-G3J"/>
+                <constraint firstItem="dAW-92-YW1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hJ8-mt-XGg"/>
+                <constraint firstItem="GIw-xC-Uwa" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hNa-Wh-YqX"/>
+                <constraint firstAttribute="bottom" secondItem="cXP-T6-tJZ" secondAttribute="bottom" constant="29" id="lsV-Zj-mdd"/>
+                <constraint firstAttribute="trailing" secondItem="cXP-T6-tJZ" secondAttribute="trailing" id="qWy-wS-fhi"/>
+                <constraint firstItem="6UW-nQ-xxb" firstAttribute="leading" secondItem="dAW-92-YW1" secondAttribute="trailing" id="vyG-Wv-vqP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="23.5" y="-203.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icXCircle" width="16" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="vegas_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="leftButton" destination="BA1-H1-8af" id="kHZ-JF-VzB"/>
+                <outlet property="rightButton" destination="nnE-EJ-ybl" id="fGi-4p-Tnt"/>
+                <outlet property="titleLabel" destination="Vsv-dA-eOA" id="dki-0S-hkf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BA1-H1-8af">
+                    <rect key="frame" x="15" y="0.0" width="130" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="6WP-l8-Yw3"/>
+                        <constraint firstAttribute="height" constant="44" id="WSu-Lu-z4p"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-6" maxY="0.0"/>
+                    <connections>
+                        <action selector="onClickLeft" destination="-1" eventType="touchUpInside" id="Vtq-HB-izg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnE-EJ-ybl" customClass="ResizeableButton" customModule="vegas_ios" customModuleProvider="target">
+                    <rect key="frame" x="310" y="0.0" width="50" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="AcU-qZ-mEL"/>
+                        <constraint firstAttribute="height" constant="44" id="CNQ-0E-lcY"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="onClickRight" destination="-1" eventType="touchUpInside" id="U1G-Nt-CUw"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsv-dA-eOA">
+                    <rect key="frame" x="70" y="12" width="235" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Hoi-T6-8Oh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Vsv-dA-eOA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="12" id="5iv-o7-voc"/>
+                <constraint firstAttribute="trailing" secondItem="Vsv-dA-eOA" secondAttribute="trailing" constant="70" id="Itm-PG-7Pn"/>
+                <constraint firstItem="BA1-H1-8af" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="RQx-Hg-Rh7"/>
+                <constraint firstItem="BA1-H1-8af" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="WBb-21-TlD"/>
+                <constraint firstItem="nnE-EJ-ybl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="dCT-nc-v3w"/>
+                <constraint firstItem="Vsv-dA-eOA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="70" id="pZZ-O3-ngH"/>
+                <constraint firstAttribute="trailing" secondItem="nnE-EJ-ybl" secondAttribute="trailing" constant="15" id="yel-ce-78h"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="19.5" y="-299"/>
+        </view>
+    </objects>
+</document>

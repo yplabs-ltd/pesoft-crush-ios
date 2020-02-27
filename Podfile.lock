@@ -1,0 +1,92 @@
+PODS:
+  - AdBrix (2.2.7)
+  - Alamofire (4.7.2)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Google/Analytics (3.1.0):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - GoogleAnalytics (3.17.0)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - IgaworksCore (2.4.6)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - OneSignal (2.8.5)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SendBirdSDK (2.0.2)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.1.0)
+  - Toast-Swift (3.0.1)
+  - XCGLogger (6.0.4):
+    - XCGLogger/Core (= 6.0.4)
+  - XCGLogger/Core (6.0.4):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - AdBrix
+  - Alamofire
+  - Google/Analytics
+  - IgaworksCore
+  - OneSignal
+  - SDWebImage
+  - SendBirdSDK (= 2.0.2)
+  - SnapKit
+  - SwiftyJSON
+  - Toast-Swift
+  - XCGLogger
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AdBrix
+    - Alamofire
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - Google
+    - GoogleAnalytics
+    - GoogleToolboxForMac
+    - IgaworksCore
+    - ObjcExceptionBridging
+    - OneSignal
+    - SDWebImage
+    - SendBirdSDK
+    - SnapKit
+    - SwiftyJSON
+    - Toast-Swift
+    - XCGLogger
+
+SPEC CHECKSUMS:
+  AdBrix: 0dee2888b8b8a329874e230bc3315c5318d2101c
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  IgaworksCore: 37341f8a460d69947218202d45ce8906d29c1b06
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  OneSignal: 42dae269c7eca517aee34963820e1eb922390031
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SendBirdSDK: ea30a0330add31a6daa94a83d1042d9a3e663d5c
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  XCGLogger: 4fc1bc0bdd5828cb8dc8da7a843536cda1bea8f3
+
+PODFILE CHECKSUM: fec3b2f9d3bf67d47edb01c08fe7d6ee903dc46d
+
+COCOAPODS: 1.5.0

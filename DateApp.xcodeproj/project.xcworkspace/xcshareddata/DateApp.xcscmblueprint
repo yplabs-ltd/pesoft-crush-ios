@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "87BAF18CC9525290C3AA27C32903EF6F18A07D2F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EE4DAFF70F73BB7F98F3BC5EC6049068B78965D9" : 0,
+    "87BAF18CC9525290C3AA27C32903EF6F18A07D2F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B10F698-5A84-4091-AE2B-AC18CF1D8211",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EE4DAFF70F73BB7F98F3BC5EC6049068B78965D9" : "dateapp-ios\/dobby\/",
+    "87BAF18CC9525290C3AA27C32903EF6F18A07D2F" : "dateapp-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DateApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DateApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.kimyoungjin.com:dateapp-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87BAF18CC9525290C3AA27C32903EF6F18A07D2F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.kimyoungjin.com:dobby.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE4DAFF70F73BB7F98F3BC5EC6049068B78965D9"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4hZ-C3-Y2g">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4gn-kD-MLT">
+            <objects>
+                <viewController id="4hZ-C3-Y2g" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gOv-WM-BaH"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZgT-e6-KCl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fFb-Ie-j7Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wuA-mV-kzk" userLabel="logo area">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_titlelogo" translatesAutoresizingMaskIntoConstraints="NO" id="hBj-C2-dLZ">
+                                        <rect key="frame" x="137" y="166.5" width="101" height="334"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="101" id="1f6-Wl-D7x"/>
+                                            <constraint firstAttribute="height" constant="334" id="RBG-Uc-eCo"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_ani_bird01" translatesAutoresizingMaskIntoConstraints="NO" id="2mz-YS-bl5">
+                                        <rect key="frame" x="193" y="462.5" width="45" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="dqh-wj-chm"/>
+                                            <constraint firstAttribute="height" constant="38" id="xu5-cf-iyZ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="2mz-YS-bl5" firstAttribute="trailing" secondItem="hBj-C2-dLZ" secondAttribute="trailing" id="5oq-WJ-9WH"/>
+                                    <constraint firstItem="hBj-C2-dLZ" firstAttribute="centerY" secondItem="wuA-mV-kzk" secondAttribute="centerY" id="SV0-de-qQU"/>
+                                    <constraint firstItem="2mz-YS-bl5" firstAttribute="bottom" secondItem="hBj-C2-dLZ" secondAttribute="bottom" id="aq3-e2-lg9"/>
+                                    <constraint firstItem="hBj-C2-dLZ" firstAttribute="centerX" secondItem="wuA-mV-kzk" secondAttribute="centerX" id="qBr-nt-niP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wuA-mV-kzk" firstAttribute="leading" secondItem="fFb-Ie-j7Z" secondAttribute="leading" id="6Oh-J0-fgb"/>
+                            <constraint firstAttribute="trailing" secondItem="wuA-mV-kzk" secondAttribute="trailing" id="EyO-nM-ZH8"/>
+                            <constraint firstItem="ZgT-e6-KCl" firstAttribute="top" secondItem="wuA-mV-kzk" secondAttribute="bottom" id="dOS-kg-rMI"/>
+                            <constraint firstItem="wuA-mV-kzk" firstAttribute="top" secondItem="fFb-Ie-j7Z" secondAttribute="top" id="jQh-Nv-nO8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="BJe-lj-2A6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0i0-Fu-TQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-127" y="353"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login_ani_bird01" width="45" height="38"/>
+        <image name="login_titlelogo" width="101" height="333"/>
+    </resources>
+</document>
